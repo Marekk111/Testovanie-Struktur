@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="priority_queue">
+      <UniqueIdentifier>{78f62a6b-10a7-42cd-bf59-d3ffcbbb0ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="list">
+      <UniqueIdentifier>{bed69f8f-6068-4e75-be13-3bf3637ebf40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vector">
+      <UniqueIdentifier>{1a368078-0093-4d0a-a642-fc96227efd14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix">
+      <UniqueIdentifier>{842cec77-80c7-4ad7-9143-dcb02b5c059b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stack">
+      <UniqueIdentifier>{7bd5a73d-58a2-4791-b7f4-e2a3f0a4e9cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="queue">
+      <UniqueIdentifier>{aaaa7913-4912-4e4a-838a-5f42addc2dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structure">
+      <UniqueIdentifier>{b1b8b396-f3a6-4992-ac77-eca57a75c0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="array">
+      <UniqueIdentifier>{26a20ae7-ca58-4212-8f5a-788c88d9144e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="routines">
+      <UniqueIdentifier>{66a141ee-e9c1-4e03-90b1-d91d63dad88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Testing">
+      <UniqueIdentifier>{ac58a8fa-abdb-441b-b1b9-6cd55c23c510}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vector\vector.cpp">
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="ds_routines.cpp">
+      <Filter>routines</Filter>
+    </ClCompile>
+    <ClCompile Include="structure.cpp">
+      <Filter>structure</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="priority_queue\priority_queue.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\priority_queue_limited_sorted_array_list.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\priority_queue_linked_list.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\priority_queue_list.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\priority_queue_sorted_array_list.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\priority_queue_two_lists.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\priority_queue_unsorted_array_list.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="list\list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="list\array_list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="list\linked_list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector.h">
+      <Filter>vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixContinuous.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixDiscontinuous.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="stack\stack.h">
+      <Filter>stack</Filter>
+    </ClInclude>
+    <ClInclude Include="stack\explicit_stack.h">
+      <Filter>stack</Filter>
+    </ClInclude>
+    <ClInclude Include="stack\implicit_stack.h">
+      <Filter>stack</Filter>
+    </ClInclude>
+    <ClInclude Include="queue\explicit_queue.h">
+      <Filter>queue</Filter>
+    </ClInclude>
+    <ClInclude Include="queue\queue.h">
+      <Filter>queue</Filter>
+    </ClInclude>
+    <ClInclude Include="queue\implicit_queue.h">
+      <Filter>queue</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="structure_iterator.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="array\array.h">
+      <Filter>array</Filter>
+    </ClInclude>
+    <ClInclude Include="ds_routines.h">
+      <Filter>routines</Filter>
+    </ClInclude>
+    <ClInclude Include="ds_structure_types.h">
+      <Filter>routines</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixTest.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueueTest.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\heap.h">
+      <Filter>priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="heap_monitor.h">
+      <Filter>routines</Filter>
+    </ClInclude>
+    <ClInclude Include="ListTest.h">
+      <Filter>Testing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ListOutput.csv">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="PriorityQueueOutput.csv">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MatrixOutput.csv">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
